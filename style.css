@@ -17,6 +17,7 @@ body {
     font-size: 26px;
     font-weight: 900;
     padding: 15px 22px;
+    flex: 1 1 auto;
   }
 
   .logo{
