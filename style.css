@@ -58,7 +58,7 @@ body {
   .card {
     display: flex;
     flex-direction: column;
-    margin: 20px auto 80px;
+    margin: 50px auto 80px;
     border: 1px solid rgb(23, 64, 187);
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 6px;
@@ -108,4 +108,21 @@ body {
       margin: 7px;
   }
 
-  
+  .links{
+      height: fit-content;
+      justify-content: flex-end;
+      padding: none;
+  }
+
+  ul{
+      display: flex;
+      list-style-type: none;
+      padding: none;
+      margin-left: -50px;
+  }
+
+  a{
+      color: #219fbf;
+      text-decoration: none;
+      margin: 0 10px 0 0;
+  } 
